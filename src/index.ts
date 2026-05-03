@@ -131,7 +131,7 @@ prompts.register(discoverPrompt);
 
 const { server } = await startServer<AppContext>({
   name: 'vinkius-discover-mcp',
-  version: '0.2.0',
+  version: '0.2.1',
   registry,
   prompts,
   contextFactory: () => ({ client, graph }),
