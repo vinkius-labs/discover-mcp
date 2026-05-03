@@ -1,6 +1,6 @@
 {
   "name": "@vinkius-core/discover-mcp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Active tool discovery for AI agents — find, activate, and orchestrate 3,400+ governed MCP servers on demand",
   "author": "Vinkius",
   "license": "Apache-2.0",
@@ -32,7 +32,8 @@
   },
   "main": "./dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
