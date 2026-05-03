@@ -1,0 +1,21 @@
+# Source (dist is published, not src)
+src/
+tsconfig.json
+
+# Dev tooling
+.gitignore
+.github/
+.vscode/
+.idea/
+
+# Tests
+tests/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Docs (README + LICENSE are included by npm default)
+CHANGELOG.md
+
+# Debug
+*.log

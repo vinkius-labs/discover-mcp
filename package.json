@@ -1,0 +1,60 @@
+{
+  "name": "@vinkius-core/discover-mcp",
+  "version": "0.2.0",
+  "description": "Active tool discovery for AI agents — find, activate, and orchestrate 3,400+ governed MCP servers on demand",
+  "author": "Vinkius",
+  "license": "Apache-2.0",
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "llm",
+    "claude",
+    "cursor",
+    "agent",
+    "tools",
+    "marketplace",
+    "gateway",
+    "stdio",
+    "vinkius"
+  ],
+  "homepage": "https://github.com/vinkius-core/discover-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinkius-core/discover-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinkius-core/discover-mcp/issues"
+  },
+  "bin": {
+    "vinkius-discover-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@vurb/core": "^3.19.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
