@@ -19,13 +19,13 @@
     "stdio",
     "vinkius"
   ],
-  "homepage": "https://github.com/vinkius-core/discover-mcp#readme",
+  "homepage": "https://github.com/vinkius-labs/discover-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinkius-core/discover-mcp.git"
+    "url": "git+https://github.com/vinkius-labs/discover-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/vinkius-core/discover-mcp/issues"
+    "url": "https://github.com/vinkius-labs/discover-mcp/issues"
   },
   "bin": {
     "vinkius-discover-mcp": "./dist/index.js"
