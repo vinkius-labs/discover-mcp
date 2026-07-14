@@ -18,7 +18,7 @@ Discover replaces all of them with one line:
 }
 ```
 
-Your agent now has access to 3,400+ MCP servers on [Vinkius](https://vinkius.com). It finds what it needs, activates it, uses it, and moves on — without you lifting a finger.
+Your agent now has access to 5k+ MCP servers on [Vinkius](https://vinkius.com). It finds what it needs, activates it, uses it, and moves on — without you lifting a finger.
 
 ---
 
